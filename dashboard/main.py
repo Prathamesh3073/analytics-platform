@@ -1,6 +1,6 @@
 import streamlit as st
 import plotly.express as px
-from dashboard.utils.helper import load_data, get_kpis
+from utils.helper import load_data
 
 st.set_page_config(layout="wide")
 
